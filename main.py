@@ -6,6 +6,7 @@ import time
 import math
 import urllib
 
+#This is my google calendar. its not thaat private now.. :)
 path="https://www.google.com/calendar/ical/7v0jd6afcg2fohiv5gmlbgpq8o%40group.calendar.google.com/private-716809bafd66f98b017bd6ebd7eb2ea4/basic.ics"
 weekly_hours = 14*60*60
 first_week = 1354489200
