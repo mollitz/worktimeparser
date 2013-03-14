@@ -44,6 +44,13 @@ if __name__ == '__main__':
   weeks = math.ceil((last-first_week)/(60*60*24*7))
   print "That is " + str(weeks) + " weeks."
   print "That is " + str (float(s)/(weeks*60*60)) + " hours per week in average."
+  overflow_time = (s-(14*60*60*weeks))/(60*60)
+  if overflow_time > 0:
+    print "In total you worked " + str(overflow_time) + " hours to much."
+  else:
+    print "You need to work " + str(overflow_time) + " hours to get to your 14 hours/week in average."
+
+  
 
   
   
